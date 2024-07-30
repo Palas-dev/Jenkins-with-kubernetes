@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: nodeserver
-        image: nginx:latest
+        image: 9955115/nodeapp:latest
         ports:
         - containerPort: 3000
         
